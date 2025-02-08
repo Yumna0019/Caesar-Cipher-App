@@ -1,0 +1,63 @@
+/* CaesarCipher.css */
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #555;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.encode {
+    background-color: #007bff;
+    color: white;
+}
+
+.decode {
+    background-color: #28a745;
+    color: white;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    background: #444;
+    border-radius: 5px;
+}
