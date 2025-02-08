@@ -24,7 +24,7 @@ const CaesarCipher = () => {
   return (
     <div className="container">
       <div className="card">
-        <h2>Caesar Cipher</h2>
+        <h2>Caesar Cipher App</h2>
         <input
           className="input"
           placeholder="Enter text"
