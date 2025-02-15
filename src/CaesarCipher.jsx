@@ -3,7 +3,6 @@ import "./CaesarCipher.css";
 
 const CaesarCipher = () => {
   const [text, setText] = useState("");
-  const [shift, setShift] = useState(3);
   const [output, setOutput] = useState("");
 
   const caesarCipher = (str, shift, encode = true) => {
@@ -31,18 +30,11 @@ const CaesarCipher = () => {
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
-        <input
-          className="input"
-          type="number"
-          placeholder="Shift"
-          value={shift}
-          onChange={(e) => setShift(Number(e.target.value))}
-        />
         <div className="button-group">
-          <button className="button encode" onClick={() => setOutput(caesarCipher(text, shift, true))}>
+          <button className="button encode" onClick={() => setOutput(caesarCipher(text, 3, true))}>
             Encode
           </button>
-          <button className="button decode" onClick={() => setOutput(caesarCipher(text, shift, false))}>
+          <button className="button decode" onClick={() => setOutput(caesarCipher(text, 3, false))}>
             Decode
           </button>
         </div>

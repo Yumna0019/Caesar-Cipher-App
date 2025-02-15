@@ -15,7 +15,7 @@ body {
 
 .card {
     background: #333;
-    padding: 20px;
+    padding: 20px 40px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
@@ -23,7 +23,7 @@ body {
 
 .input {
     width: 100%;
-    padding: 10px;
+    padding: 10px 4px;
     margin: 10px 0;
     background: #555;
     border: none;
